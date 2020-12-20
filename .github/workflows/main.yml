@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 12
       - name: Install Surge
-        run: npm install -g surge
+        run: npm install --global surge
       - name: Run surge
         run: surge ./ http://simple_website.surge.sh/ --token ${{ secrets.E2 }}
