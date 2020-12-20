@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+       body{
+           background: url("img/lio.jpg");
+            
+            background-repeat: no-repeat;
+            color: antiquewhite;
+            font-family: 'Roboto', sans-serif;
+       }
+       .left{
+          
+           display: inline-block;
+           top: 12px 10px;
+           position: absolute;
+       }
+       .center{
+       
+           width: 45%;
+           margin:  auto;
+          
+           
+       }
+       .right{
+          
+           display: inline-block;
+           position: absolute;
+           top: 12px;
+           right: 33px;
+       }
+       .center ul li{
+           display: inline-block;
+           padding: 15px 8px;
+           font-size: 20px;
+           font-weight: bold;
+           color:wheat;
+       }
+       a{
+           text-decoration: none;
+           color:black;
+           font-size: 25px;
+           font-weight: bolder;
+       }
+       a:hover{
+        background-color: whitesmoke;
+           color: black;
+       }
+       .left img{
+           width: 150px;
+           height: 75px;
+           filter: invert(100%);
+           margin-left: 20px;
+           margin-top: 10px;
+       }
+       .btn{
+           margin-top: 18px;
+           padding: 5px 5px;
+       }
+       .btn:hover{
+           background-color: whitesmoke;
+           color: black;
+       }
+       .container{
+           border: 2px solid black;
+           width: 350px;
+           height: 450px;
+           display: inline-block;
+           margin: 100px 20px;
+           border-radius: 10px;
+           
+       }
+       .container h3{
+           color:black ;
+           text-align: center;
+           font-weight: bold;
+           font-size: 20px;
+           padding-top: 10px;
+           font-weight: bolder;
+       }
+       .form-group input {
+        
+        text-align: center;
+        display: block;
+        width: 287px;
+        padding: 6px 6px;
+        border: none;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+        background-color: black;
+        color: whitesmoke;
+        
+    }
+    .form-group input:active{
+        background-color: blanchedalmond;
+        color: black;
+    }
+    .btn{
+        margin-left: 150px;
+        background-color: black;
+        color: white;
+    }
+      
+    </style>
+</head>
+<body>
+   <head>
+       <div class="left">
+            <img src="img/q.png" alt="">
+       </div>
+       <div class="center">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+       </div>
+       <div class="right">
+         <button class="btn1">Call Us</button>
+         <button class="btn1">Email Us</button>
+        
+       </div>   
+       <div class="container">
+           <h3>Join the best gym of the delhi now</h3>
+           <form>
+           <div class="form-group">
+               
+                   <input name="Name" value="" type="text" placeholder="Enter your name"></input>
+                   
+             
+           </div>
+           <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <button class="btn">Submit</button>
+                       </form>
+    </div>
+   </head>
+</body>
+</html>
